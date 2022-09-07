@@ -1,0 +1,35 @@
+{
+  "name": "webgl",
+  "version": "1.0.0",
+  "description": "Practice repo for webgl",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack --mode production",
+    "dev": "webpack --watch & webpack serve --no-client-overlay ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Miles",
+  "license": "ISC",
+  "devDependencies": {
+    "@open-wc/building-rollup": "^2.0.2",
+    "@types/copy-webpack-plugin": "^10.1.0",
+    "@types/three": "^0.144.0",
+    "@types/write-file-webpack-plugin": "^4.5.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "deepmerge": "^4.2.2",
+    "html-webpack-plugin": "^5.5.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.79.0",
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.9.1",
+    "ts-shader-loader": "^2.0.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.1",
+    "write-file-webpack-plugin": "^4.5.1"
+  },
+  "dependencies": {
+    "three": "^0.144.0"
+  }
+}
